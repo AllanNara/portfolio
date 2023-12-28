@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom ,cadetblue, rgba(0, 0, 0, 0.8));
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(5px);
+    width: 60vw;
+    height: 50vh;
+}
+  
+.contact {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.contact a {
+    color: black
+}
+
+.contact a:hover {
+    color: #fff
+}
+  
